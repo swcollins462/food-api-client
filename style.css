@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+.response-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.meal-item {
+    width: 40%;
+    margin: 4%;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
